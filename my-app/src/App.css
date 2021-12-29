@@ -1,0 +1,22 @@
+h1 {
+  color:firebrick;
+  text-align: center;
+}
+
+.base-container {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  width: fit-content;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
