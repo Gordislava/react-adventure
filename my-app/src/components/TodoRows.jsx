@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class TodoRows extends Component {
         render = () => (
-      <div key={this.props.item.action}>
+      <div key={this.props.item.key}>
         <input 
           type="checkbox"
           className="input"
@@ -11,6 +11,9 @@ export class TodoRows extends Component {
   
         />
         <label>{this.props.item.action}</label>
+        <span
+          onClick={() => this.props.delete(this.props.item.key)}
+        >X</span>
       </div>
         );
     }
