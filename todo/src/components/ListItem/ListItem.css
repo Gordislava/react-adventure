@@ -1,0 +1,9 @@
+.list-item.done .todo-list-item-label {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+.list-item.important .todo-list-item-label {
+    font-weight: 700;
+    color: darkgreen;
+}
